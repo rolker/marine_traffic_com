@@ -2,7 +2,7 @@
 
 import rospy
 from geographic_msgs.msg import GeoPointStamped
-from marine_msgs.msg import Contact
+from project11_msgs.msg import Contact
 
 from dynamic_reconfigure.server import Server
 from marine_traffic_com.cfg import marine_traffic_comConfig

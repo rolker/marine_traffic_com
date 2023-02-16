@@ -6,7 +6,7 @@ add_compile_options(-std=c++11)
 
 find_package(catkin REQUIRED COMPONENTS
   geographic_msgs
-  marine_msgs
+  project11_msgs
   rospy
   dynamic_reconfigure
   project11
@@ -21,7 +21,7 @@ generate_dynamic_reconfigure_options(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES posmv
-#  CATKIN_DEPENDS geometry_msgs marine_msgs rospy
+#  CATKIN_DEPENDS geometry_msgs project11_msgs rospy
 #  DEPENDS system_lib
 )
 
